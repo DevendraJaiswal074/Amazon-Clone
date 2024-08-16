@@ -47,3 +47,20 @@
     font-size: 1rem;
     margin-left: 2px;
 }
+
+/* box 3 */
+.nav_search{
+    display: flex;
+    width: 630px;
+    height: 42px;
+    border-radius:4px;
+    background-color: goldenrod;
+}
+
+.search_select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px ;
+    border-bottom-left-radius: 4px;
+}
