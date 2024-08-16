@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("Amazon-Logo-Black2.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid  white;
+}
+
+/** Box2 **/ 
+
+.add_first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 14px;
+}
+.location_logo{                   
+    display: flex;      /** to display loaction icon and India text at a same line  **/
+    text-align: center;
+    margin-left: 9px;
+}
+.add_second{
+    font-size: 1rem;
+    margin-left: 2px;
+}
